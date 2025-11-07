@@ -1,7 +1,5 @@
 # ScaleX 
 
-## 🌎 Overview
-
 ScaleX is a comprehensive decentralized finance (DeFi) protocol that combines a **Central Limit Order Book (CLOB) DEX** with an integrated **Lending Protocol** powered by unified liquidity. Our platform enables permissionless spot trading while automatically lending deposited assets to generate yield for traders, creating a seamless trading and earning experience that is **fair, efficient, and scalable**.
 
 ---
