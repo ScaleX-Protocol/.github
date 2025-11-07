@@ -1,155 +1,298 @@
-# 🚀 GTX (Great Trading Xperience)
+# 🚀 ScaleX (Scale Experience)
 
 ## 🌎 Overview
 
-GTX is a decentralized finance (DeFi) protocol designed to enable permissionless **spot trading**, with plans to expand into perpetual markets in the future. Addressing inefficiencies in Automated Market Makers (AMMs) and centralized exchanges, GTX provides an order book-based, permissionless trading experience that is **fair, efficient, and scalable**.
+ScaleX is a comprehensive decentralized finance (DeFi) protocol that combines a **Central Limit Order Book (CLOB) DEX** with an integrated **Lending Protocol** powered by unified liquidity. Our platform enables permissionless spot trading while automatically lending deposited assets to generate yield for traders, creating a seamless trading and earning experience that is **fair, efficient, and scalable**.
 
 ---
 
-## ❌ Problems with Traditional AMMs
+## ❌ Problems with Current Trading Platforms
 
-- **🔄 Inefficient Capital Utilization** – AMMs require deep liquidity to minimize slippage, leading to inefficient capital allocation.
-- **💰 High Impermanent Loss** – Liquidity providers often suffer from impermanent loss due to volatile price movements.
-- **📉 Price Manipulation** – AMMs are vulnerable to front-running and sandwich attacks, harming traders.
-- **🚧 Restricted Market Listings** – Centralized exchanges limit listings, making it difficult for emerging assets to gain liquidity.
+### 1. 🔄 Capital Inefficiency
+- **Idle Trading Capital**: $100,000 deposited on order book CEX/DEX earns zero yield when not actively trading
+- **Unproductive Limit Orders**: Billions in liquidity sit idle in order books waiting execution, generating zero returns
+- **Manual Asset Management**: Traders must manually move assets to separate lending accounts, creating friction and lost opportunities
+- **Lost Opportunities**: Millions of traders watch both trading capital and active orders sit completely unproductive
+
+### 2. ⚠️ Risk of Borrowing Liquidations
+- **Forced Liquidations**: Lending protocols automatically liquidate during market drops
+- **Helpless Watching**: Users watch collateral get sold at crash prices unable to protect themselves
+- **No Strategic Conversion**: Unable to convert to stable assets before liquidation triggers
+
+### 3. 💸 Expensive Loan Repayment
+- **Manual Repayment**: When borrowing ETH and selling to USDT, traders must manually repay ETH loans later at market rates
+- **Missed Opportunities**: Can't automatically repay when ETH prices drop to reduce borrowing costs
+- **Poor Timing**: Lose chances to reduce debt during market dips
+
+### 4. 🚫 No Borrowing Power Against Trading Portfolio
+- **Zero Leverage**: Deposited funds on CEX/DEX platforms have zero borrowing power
+- **Additional Collateral Required**: Must deposit separate collateral just to access leverage
+- **Inefficient Capital**: Trading portfolio can't be used for other strategies
+
+### 5. 🔀 Fragmented Experience
+- **Multiple Protocols**: Must juggle separate DeFi protocols for trading and lending/borrowing
+- **High Gas Costs**: Complex interactions across disconnected systems
+- **Poor Capital Management**: Difficulty managing assets across multiple platforms
 
 ---
 
-## ✅ GTX Solution for Spot Trading
+## ✅ ScaleX Unified Solution
 
-GTX introduces a **Central Limit Order Book (CLOB)-based DEX** with:
+ScaleX introduces a **Hybrid DeFi Platform** that directly addresses each core problem:
 
-1. **🌐 Decentralized Market Creation** – Anyone can list a spot trading pair without permission.
-2. **📊 Efficient Order Book Trading** – CLOB enables traders to set limit orders and achieve fair price execution.
-3. **🤖 AMM-Free Model** – Eliminates impermanent loss risks by relying on direct peer-to-peer trading.
-4. **📡 Oracle-Free Spot Trading** – Uses an order book mechanism to ensure transparent and decentralized price discovery.
+### 1. 💰 **Capital Efficiency Solution**
+- **Auto-Yield on Deposits**: All deposited assets automatically earn yield in the lending protocol
+- **Yield on Limit Orders**: Your active limit orders generate yield while waiting execution
+- **Single Platform**: No need to move assets between trading and lending accounts
+- **Continuous Returns**: Your entire portfolio works 24/7, even while you sleep
+
+### 2. 🛡️ **Smart Liquidation Protection**
+- **Strategic Auto-Conversion**: Automatically convert volatile collateral to stable assets before liquidation triggers
+- **Health Factor Monitoring**: Real-time portfolio health tracking with protective actions
+- **Proactive Risk Management**: System anticipates market drops and protects your position
+
+### 3. ⚡ **Intelligent Loan Repayment**
+- **Auto-Repay on Market Dips**: Automatically repay debt when prices drop to reduce borrowing costs
+- **Smart Debt Optimization**: Minimize interest expenses through strategic timing
+- **Automated Savings**: No manual monitoring required - system always finds optimal repayment opportunities
+
+### 4. 🚀 **Full Portfolio Borrowing Power**
+- **Trading Portfolio as Collateral**: Your deposited trading balances provide immediate borrowing power
+- **No Additional Collateral Needed**: Use your existing assets for leverage without extra deposits
+- **Unified Capital Management**: Single pool serves both trading and borrowing needs
+
+### 5. 🎯 **Integrated Experience**
+- **Single Protocol**: Trading, lending, and borrowing in one unified system
+- **Reduced Gas Costs**: Seamless interactions without multiple protocol transactions
+- **Simplified Management**: One interface for all your DeFi activities
 
 ---
 
 ## 🔥 Key Features
 
-- **💱 Spot Trading** – Fully decentralized CLOB-based exchange.
-- **🚀 Permissionless Market Creation** – No gatekeepers—anyone can list a new market.
+### 💱 Trading Features
+- **📈 CLOB-Based Spot Trading** – Fully decentralized order book exchange.
+- **🚀 Open Market Creation** – Anyone can create a new trading pair.
 - **🔍 Fair and Transparent Pricing** – No reliance on external oracles for spot trades.
-- **📈 Optimized Liquidity Utilization** – Capital-efficient trading mechanism compared to AMMs.
 - **⚡ High-Frequency Trading Ready** – Supports traders placing orders with minimal delay.
 - **🛑 No Liquidity Providers (LPs) Needed** – Orders are matched peer-to-peer, removing LP dependency.
+
+### 🏦 Lending Features
+- **💎 Automatic Yield Generation** – Deposited assets are automatically lent out to generate returns.
+- **🔄 Unified Liquidity Pool** – Single pool serves both trading and lending operations.
+- **📊 Dynamic Interest Rates** – Market-driven rates based on supply and demand.
+- **🛡️ Risk Management** – Built-in liquidation mechanisms and health factor monitoring.
+- **⚡ Auto-Repay Integration** – Seamless integration with trading activities.
+
+### 🎯 Revolutionary Features
+
+#### 💰 **Capital Efficiency Revolution**
+- **🔄 Auto-Yield on All Assets**: Every dollar deposited automatically starts earning yield
+- **📈 Yield on Active Orders**: Your limit orders continue generating yield while waiting execution
+- **⚡ 24/7 Portfolio Performance**: No idle capital - your entire portfolio works around the clock
+- **🎯 Single-Platform Management**: No more moving assets between trading and lending accounts
+
+#### 🛡️ **Risk Management Revolution**
+- **🤖 Smart Liquidation Protection**: Auto-convert to stable assets before liquidation triggers
+- **📊 Real-Time Health Monitoring**: Continuous portfolio health tracking with protective actions
+- **⚡ Proactive Market Defense**: System anticipates drops and protects your positions automatically
+- **🔒 Stress-Free Borrowing**: Trade with confidence knowing your assets are protected
+
+#### ⚡ **Trading Efficiency Revolution**
+- **🔄 Auto-Borrow for Limit Orders**: Place limit orders without owning the underlying assets!
+- **💸 Smart Auto-Repay**: Automatically repay debt when market conditions are favorable
+- **📈 Zero-Capital Trading**: Start trading immediately with just collateral
+- **🎯 Intelligent Debt Management**: System optimizes borrowing/repayment to minimize costs
+
+#### 🚀 **Liquidity Revolution**
+- **💪 Full Portfolio Borrowing Power**: Your trading balances provide immediate leverage access
+- **🔗 Unified Capital Management**: Single pool serves all trading, lending, and borrowing needs
+- **⚡ No Additional Collateral**: Use existing assets without extra deposits
+- **📊 Dynamic Capital Allocation**: System optimizes capital usage across all activities
 
 ---
 
 ## 🏗️ System Architecture
 
-![CLOB DEX Architecture](../diagram.png)
-
-The CLOB DEX system consists of four main components:
-- **GTXRouter**: Entry point for all user interactions
-- **PoolManager**: Manages trading pairs and pool deployments
+The ScaleX system consists of five main components:
+- **ScaleXRouter**: Central entry point for all user interactions
 - **OrderBook**: Handles order placement and matching using RB-Tree
 - **BalanceManager**: Manages token deposits, withdrawals, and locks
+- **ChainBalanceManager**: Handles cross-chain balance operations
+- **Oracle**: Provides real-time price feeds for lending protocol operations
 
 ---
 
-## 📡 Indexer Integration
+## 📁 Repository Structure
 
-We use Ponder for indexing, which allows the frontend to easily query key data such as candlestick charts, pool balances, and listed markets. Ponder is chosen due to its simple setup, customizability, and compatibility with EVM chains. It is also self-hostable, ensuring greater control over the infrastructure.
+### 📦 Core Protocol
+- **[clob-dex](https://github.com/ScaleX-Protocol/clob-dex)** - Core smart contracts for the ScaleX protocol
+  - CLOB DEX implementation with Red-Black Tree order matching
+  - Integrated lending protocol with automated yield generation
+  - Unified liquidity management system
+  - Auto-borrow/auto-repay functionality
+
+### 🌐 Frontend Applications
+- **[scalex-frontend](https://github.com/ScaleX-Protocol/scalex-frontend)** - Web trading interface
+  - Modern React-based trading dashboard
+  - Real-time order book visualization
+  - Portfolio and lending management
+  - Yield tracking and analytics
+
+### 🔧 Development Tools
+- **[scalex-sdk](https://github.com/ScaleX-Protocol/scalex-sdk)** - TypeScript/JavaScript SDK
+  - Easy integration with ScaleX protocol
+  - Type-safe interfaces for all protocol functions
+  - Trading and lending utilities
+  - Example implementations
+
+### 📊 Infrastructure
+- **[scalex-indexer](https://github.com/ScaleX-Protocol/scalex-indexer)** - Ponder-based indexing
+  - Real-time data indexing for frontend
+  - Historical trading data
+  - Lending protocol analytics
+  - GraphQL API for data access
+
+### 📚 Documentation
+- **[scalex-docs](https://github.com/ScaleX-Protocol/scalex-docs)** - Technical documentation
+  - Protocol architecture documentation
+  - API references and guides
+  - Deployment instructions
+  - Security audit reports
+
+### 🧪 Testing & Quality
+- **[scalex-tests](https://github.com/ScaleX-Protocol/scalex-tests)** - Integration test suite
+  - Comprehensive protocol testing
+  - Security test cases
+  - Performance benchmarks
+  - Load testing scenarios
+
+---
+
+## 🚀 Quick Start
+
+### For Developers
+
+1. **Clone the core protocol:**
+   ```bash
+   git clone https://github.com/ScaleX-Protocol/clob-dex.git
+   cd clob-dex
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   forge install
+   npm install
+   ```
+
+3. **Run local deployment:**
+   ```bash
+   make deploy network=local
+   ```
+
+4. **Start developing:**
+   ```bash
+   # Run tests
+   make test
+   
+   # Compile contracts
+   make compile
+   ```
+
+### For Users
+
+1. **Visit the trading interface:** [app.scalex.io](https://app.scalex.io)
+2. **Connect your wallet** (MetaMask, WalletConnect, etc.)
+3. **Deposit collateral** - automatically starts earning yield
+4. **Start trading** - place orders without owning assets using auto-borrow
 
 ---
 
 ## 🔄 How It Works
 
-1. **👨‍💻 Traders** place buy/sell orders on the decentralized order book.
-2. **📊 Order Matching** occurs through a fair and efficient matching engine.
-3. **💰 Protocol** earns trading fees when orders are matched in the order book.
-4. **🔄 Settlement** happens directly on-chain, ensuring security and transparency.
+### Trading Flow
+1. **👨‍💻 Traders** deposit assets into the unified liquidity pool.
+2. **📊 Assets** are automatically made available for both trading and lending.
+3. **💰 Trading** occurs through the CLOB with fair price matching.
+4. **🏦 Lending** generates yield on deposited assets automatically.
+5. **🔄 Settlement** happens directly on-chain, ensuring security and transparency.
+
+### Yield Generation
+1. **💎 Deposited assets** are automatically lent to borrowers.
+2. **📈 Interest accrues** continuously based on market rates.
+3. **⚡ Auto-repay** functionality integrates with trading activities.
+4. **🔄 Compounding** occurs automatically to maximize returns.
 
 ---
 
-## 📖 More Details
+## 🌟 Life-Changing Innovations
 
-### 💎 Core Features
+### 💰 **End Capital Waste Forever**
+- **Never Idle Capital**: Every dollar deposited earns yield immediately
+- **Yield While Trading**: Your limit orders make money even while waiting execution
+- **No Manual Transfers**: Single platform for all your capital needs
+- **Maximum Efficiency**: 100% of your portfolio works 24/7
 
-#### 🔄 Advanced Order Types
-- **📊 Limit Orders** – Set precise pricing for trades.
-- **⚡ Market Orders** – Instant execution at the best available price.
-- **🎯 Smart Order Routing** – Optimized execution for best trade outcomes.
+### 🛡️ **Never Fear Liquidation Again**
+- **Smart Protection**: System converts to stable assets before liquidation triggers
+- **Stress-Free Trading**: Trade aggressively while protecting your downside
+- **Automated Defense**: No more watching helplessly during market crashes
+- **Strategic Protection**: System acts before you even realize the risk
 
-#### ⚙️ High-Performance Engine
-- **🏃‍♂️ O(log n) Matching Algorithm** – Efficient trade matching.
-- **📈 Price-Time Priority Execution** – Ensures fair order processing.
-- **🔍 Real-Time Order Book Updates** – Continuous visibility into market movements.
-- **🔒 Atomic Settlements** – Ensures consistency and security in trades.
+### ⚡ **Never Overpay for Loans Again**
+- **Automatic Savings**: Repay debt when prices drop to reduce costs
+- **Smart Timing**: System always finds optimal repayment opportunities
+- **Zero Manual Work**: No monitoring required - it just happens
+- **Maximum Savings**: Minimize interest expenses automatically
 
-### 🏗️ Architecture Highlights
+### 🚀 **Never Need Extra Collateral Again**
+- **Instant Leverage**: Your trading balances provide immediate borrowing power
+- **Unified Capital**: Use existing assets without additional deposits
+- **Full Portfolio Power**: Every dollar contributes to your borrowing capacity
+- **Simplified Management**: One portfolio for trading, lending, and borrowing
 
-#### 🌳 Red-Black Tree Price Levels
-- **O(log n) Operations** – Efficient price level insertions and removals.
-- **Quick Best Bid/Ask Access** – Fast retrieval of top market prices.
-- **Ordered Iteration** – Enables seamless market data traversal.
+---
 
-#### 📜 Order Queues
-- **Double-Linked List Structure** – Efficiently manages orders at each price level.
-- **FIFO Execution** – Ensures fair trade processing within the same price level.
-- **Efficient Order Updates** – Minimizes processing overhead.
+## 📈 Roadmap
 
-#### 🗃️ Data Storage Optimization
-- **Order Packing** – Compact storage using bit manipulation.
-  - Side (1 byte) | Price (64 bytes) | OrderId (48 bytes)
-- **Active Order Tracking** – Per-user order tracking via `EnumerableSet`.
-- **Price Level Management** – Automatically removes empty price levels.
+### 🎯 Q1 2025 - Core Launch
+- ✅ CLOB DEX with advanced order matching
+- ✅ Integrated lending protocol
+- ✅ Auto-borrow/auto-repay functionality
+- ✅ Web trading interface
 
-### 🔑 Key Data Structures
-```solidity
-// Price Tree Mapping
-mapping(Side => RBTree.Tree) private priceTrees;
+### 🚀 Q2 2025 - Expansion
+- 🔄 Cross-chain compatibility
+- 🔄 Advanced order types (stop-loss, take-profit)
+- 🔄 Mobile trading application
+- 🔄 Governance token launch
 
-// Order Queues at Each Price Level
-mapping(Side => mapping(Price => OrderQueueLib.OrderQueue)) private orderQueues;
+### 🌟 Q3 2025 - Advanced Features
+- 📋 Perpetual futures trading
+- 📋 Advanced lending strategies
+- 📋 Institutional-grade features
+- 📋 Layer 2 integration
 
-// User's Active Orders
-mapping(address => EnumerableSet.UintSet) private activeUserOrders;
-```
+---
 
-### 👀 View Functions
-- Retrieve **best bid/ask prices**.
-- Check **order queue status** at any price level.
-- View **user’s active orders**.
-- Fetch **next best price levels with trading volumes**.
+## 🔒 Security
 
-### ⛽ Gas Optimization Techniques
+- **🛡️ Audited Smart Contracts** - Comprehensive security audits by leading firms
+- **⚡ Bug Bounty Program** - Ongoing security testing and vulnerability rewards
+- **🔐 Multi-sig Governance** - Secure protocol upgrades and parameter changes
+- **📊 Real-time Monitoring** - 24/7 system health and security monitoring
 
-#### Efficient Storage
-- **Minimal Storage Operations** – Reduces gas costs.
-- **Packed Order Data** – Optimized for efficiency.
-- **Optimized Mappings** – Prevents unnecessary storage use.
+---
 
-#### Smart Data Structures
-- **Red-Black Tree for Price Levels** – O(log n) efficiency.
-- **Double-Linked Lists for Order Management** – Fast access and updates.
-- **EnumerableSet for Active Order Tracking** – Ensures efficient lookups.
+## 🤝 Community
 
-#### Memory Management
-- **Strategic Memory vs. Storage Use** – Minimizes on-chain costs.
-- **Optimized Array Operations** – Reduces execution overhead.
-- **Efficient Event Emission** – Minimizes unnecessary gas usage.
-
-### 🔒 Security Features
-
-#### Access Control
-- **Order Cancellation Restrictions** – Only order owners can cancel.
-- **Reentrancy Protection** – All state-changing functions are secured.
-
-#### Input Validation
-- **Price & Quantity Checks** – Ensures valid order parameters.
-- **Order Existence Checks** – Prevents manipulation.
-- **Price Level Integrity** – Maintains a consistent order book.
-
-#### State Management
-- **Atomic Operations** – Ensures consistency across transactions.
-- **Consistent State Updates** – Prevents stale or orphaned data.
-- **Automatic Cleanup of Empty States** – Optimizes contract storage.
+- **💬 Discord** - Join our community for discussions and support
+- **🐦 Twitter** - Follow us for updates and announcements
+- **📧 Newsletter** - Subscribe for protocol updates and insights
+- **🎮 Telegram** - Real-time community chat and support
 
 ---
 
 ## 📜 License
 
-GTX is open-source under the MIT License.
+ScaleX is open-source under the MIT License. See individual repositories for specific licensing information.
