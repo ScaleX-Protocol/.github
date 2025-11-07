@@ -1,4 +1,4 @@
-# 🚀 ScaleX (Scale Experience)
+# ScaleX 
 
 ## 🌎 Overview
 
