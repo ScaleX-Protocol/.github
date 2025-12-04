@@ -4,69 +4,69 @@ ScaleX is a comprehensive decentralized finance (DeFi) protocol that combines a 
 
 ---
 
-## ❌ Problems with Current Trading Platforms
+## Problems with Current Trading Platforms
 
-### 1. 🔄 Capital Inefficiency
+### 1. Capital Inefficiency
 - **Idle Trading Capital**: $100,000 deposited on order book CEX/DEX earns zero yield when not actively trading
 - **Unproductive Limit Orders**: Billions in liquidity sit idle in order books waiting execution, generating zero returns
 - **Manual Asset Management**: Traders must manually move assets to separate lending accounts, creating friction and lost opportunities
 - **Lost Opportunities**: Millions of traders watch both trading capital and active orders sit completely unproductive
 
-### 2. ⚠️ Risk of Borrowing Liquidations
+### 2. Risk of Borrowing Liquidations
 - **Forced Liquidations**: Lending protocols automatically liquidate during market drops
 - **Helpless Watching**: Users watch collateral get sold at crash prices unable to protect themselves
 - **No Strategic Conversion**: Unable to convert to stable assets before liquidation triggers
 
-### 3. 💸 Expensive Loan Repayment
+### 3. Expensive Loan Repayment
 - **Manual Repayment**: When borrowing ETH and selling to USDT, traders must manually repay ETH loans later at market rates
 - **Missed Opportunities**: Can't automatically repay when ETH prices drop to reduce borrowing costs
 - **Poor Timing**: Lose chances to reduce debt during market dips
 
-### 4. 🚫 No Borrowing Power Against Trading Portfolio
+### 4. No Borrowing Power Against Trading Portfolio
 - **Zero Leverage**: Deposited funds on CEX/DEX platforms have zero borrowing power
 - **Additional Collateral Required**: Must deposit separate collateral just to access leverage
 - **Inefficient Capital**: Trading portfolio can't be used for other strategies
 
-### 5. 🔀 Fragmented Experience
+### 5. Fragmented Experience
 - **Multiple Protocols**: Must juggle separate DeFi protocols for trading and lending/borrowing
 - **High Gas Costs**: Complex interactions across disconnected systems
 - **Poor Capital Management**: Difficulty managing assets across multiple platforms
 
 ---
 
-## ✅ ScaleX Unified Solution
+## ScaleX Unified Solution
 
 ScaleX introduces a **Hybrid DeFi Platform** that directly addresses each core problem:
 
-### 1. 💰 **Capital Efficiency Solution**
+### 1. **Capital Efficiency Solution**
 - **Auto-Yield on Deposits**: All deposited assets automatically earn yield in the lending protocol
 - **Yield on Limit Orders**: Your active limit orders generate yield while waiting execution
 - **Single Platform**: No need to move assets between trading and lending accounts
 - **Continuous Returns**: Your entire portfolio works 24/7, even while you sleep
 
-### 2. 🛡️ **Smart Liquidation Protection**
+### 2. **Smart Liquidation Protection**
 - **Strategic Auto-Conversion**: Automatically convert volatile collateral to stable assets before liquidation triggers
 - **Health Factor Monitoring**: Real-time portfolio health tracking with protective actions
 - **Proactive Risk Management**: System anticipates market drops and protects your position
 
-### 3. ⚡ **Intelligent Loan Repayment**
+### 3. **Intelligent Loan Repayment**
 - **Auto-Repay on Market Dips**: Automatically repay debt when prices drop to reduce borrowing costs
 - **Smart Debt Optimization**: Minimize interest expenses through strategic timing
 - **Automated Savings**: No manual monitoring required - system always finds optimal repayment opportunities
 
-### 4. 🚀 **Full Portfolio Borrowing Power**
+### 4. **Full Portfolio Borrowing Power**
 - **Trading Portfolio as Collateral**: Your deposited trading balances provide immediate borrowing power
 - **No Additional Collateral Needed**: Use your existing assets for leverage without extra deposits
 - **Unified Capital Management**: Single pool serves both trading and borrowing needs
 
-### 5. 🎯 **Integrated Experience**
+### 5. **Integrated Experience**
 - **Single Protocol**: Trading, lending, and borrowing in one unified system
 - **Reduced Gas Costs**: Seamless interactions without multiple protocol transactions
 - **Simplified Management**: One interface for all your DeFi activities
 
 ---
 
-## 🔥 Key Features
+## Key Features
 
 ### 💱 Trading Features
 - **📈 CLOB-Based Spot Trading** – Fully decentralized order book exchange.
